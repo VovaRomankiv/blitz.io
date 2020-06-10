@@ -1,0 +1,370 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+body{
+    font-size: 1vw;
+    color: #838383;
+    line-height: 1.6;
+    margin: 0;
+
+}
+
+
+**,
+*:before,
+*:after{
+    box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+}
+/*top_line*/
+
+
+
+.top_line{
+    background-color: rgb(226, 226,226);
+    width: 100%;
+  height: 0.4vw;
+
+}
+.active_link{
+    background-image: url("../images/active link.png");
+    background-size: cover;
+    width: 1vw;
+  height: 0.7vw;
+    margin-left: 68.5vw;
+    margin-top: -0.15vw;
+
+
+}
+
+/*header*/
+.header_container{
+    width: 67vw;
+    margin: 0 auto;
+}
+.button_description{
+  font-size: 0.8vw;
+    font-weight: bold;
+    text-transform: uppercase;
+  font-family: "Bebas";
+  color: rgb(165, 165, 165);
+}
+
+.header{
+    width: 100%;
+}
+
+.header__inner{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: -2.6vw;
+}
+
+
+.header__logo{
+    font-family: "Pacifico";
+    font-size: 3vw;
+    font-weight: 300;
+    color: rgb(71, 71, 71);
+}
+
+/*nav*/
+.nav{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.4vw;
+    margin-top: 1.8vw;
+
+}
+
+
+.nav__link{
+    display: inline-block;
+    vertical-align: top;
+    margin: 0.1vw 2.5vw 2.5vw 0;
+
+    position: relative;
+
+    color: #474747;
+    text-decoration: none;
+    transition: color 0.2s linear;
+
+    text-transform: uppercase;
+}
+
+.nav__link:hover {
+    color: red;
+}
+
+
+
+/*title*/
+.title{
+
+    width: 100%;
+    margin-top: 1.34vw;
+
+}
+
+
+.intro__text{
+    width: 100%;
+    line-height: 0.75;
+    font-family: "Bebas";
+    font-size: 0.8vw;
+    color: rgb(71, 71, 71);
+    display: inline-block;
+    margin: 1vw 1vw 0.7vw 0vw;
+    max-width: 61.63vw;
+}
+
+.intro__text1{
+    width: 100%;
+    font-size: 0.45vw;
+    font-family: "HelveticaNeue";
+  color: rgb(158, 158, 158);
+  font-style: italic;
+    display: inline-block;
+    max-width: 37vw;
+    margin-bottom: 0.7vw;
+}
+
+
+.Header_Background{
+    width: 47vw;
+    height: 0.35vw;
+
+    background-image: url("../images/Header Background.png");
+    background-image: no-repeat;
+    background-size: cover;
+    margin-bottom:2.7vw;
+}
+
+
+/*container*/
+.container{
+    width: 47vw;
+    margin-left: 15vw;
+}
+.section{
+    margin-top: 4vw;
+    width: 100%;
+    margin-bottom: 2wv;
+    display: inline;
+
+
+}
+.post_title{
+    text-transform: uppercase;
+      font-size: 1.2vw;;
+      font-family: "Bebas";
+      color: rgb(70, 70, 70);
+    width: 25vw;
+    margin-bottom: 1vw;
+
+
+}
+
+.text{
+    width: 100%;
+    font-size: 1.3vw;
+    font-family: "Bebas";
+    color: rgb(70, 70, 70);
+    font-weight: 500;
+    max-width: 21vw;
+    margin-bottom: 1;
+    text-transform: uppercase;
+}
+.post_1_img{
+    width: 47vw;
+    height: 22vw;
+
+    background-image: url("../images/post_1_img.png");
+    background-image: no-repeat;
+    background-size: cover;
+    margin-bottom:1vw;
+}
+.post_2_img{
+    width: 47vw;
+    height: 22vw;
+
+    background-image: url("../images/post_2_img.png");
+    background-image: no-repeat;
+    background-size: cover;
+    margin-bottom:1vw;
+}
+.post_3_img{
+    width: 47vw;
+    height: 22vw;
+
+    background-image: url("../images/post_3_img.png");
+    background-image: no-repeat;
+    background-size: cover;
+    margin-bottom:1vw;
+}
+.stats {
+    display: inline-block;
+    width: 10.35vw;
+    height: 10.5vw;
+}
+
+/* a */
+
+a:hover{
+   color: red;
+}
+
+/* a */
+
+.con{
+    width: 47vw;
+    display: flex;
+}
+
+.post_text{
+    width: 36.2vw;
+    font-size: 1vw;
+    font-family: "HelveticaNeue";
+    color: rgb(65, 65, 65);
+    font-weight: 500;
+    margin-bottom: 4vw;
+}
+.post_text_1{
+    margin-bottom: 1.3vw;
+}
+.text3{
+    width: 100%;
+    font-size: 1vw;
+    font-family: "HelveticaNeue";
+    color: rgb(65, 65, 65);
+    font-weight: 500;
+    max-width: 19.33vw;
+
+}
+
+
+.date{
+    color: rgb(70, 70, 70);
+    text-transform: uppercase;
+    font-size: 0.9vw;
+}
+.tags{
+    color: rgb(70, 70, 70);
+    text-transform: uppercase;
+    font-size: 0.9vw;
+}
+.comments{
+    color: rgb(70, 70, 70);
+    text-transform: uppercase;
+    font-size: 0.9vw;
+}
+.date_text{
+
+    font-size: 0.75vw;
+    margin-bottom: 0.2vw;
+}
+.tags_text{
+
+    font-size: 0.75vw;
+    margin-bottom: 0.2vw;
+}
+.comments_text{
+    font-size: 0.75vw;
+    margin-bottom: 0.2vw;
+}
+
+
+
+
+
+/* footer */
+.footer_container{
+    width: 67vw;
+    margin: 0 auto;
+}
+
+.footer{
+    height: 4.66vw;
+    width: 100%;
+    background-color: #D3D3D3;
+    margin-top: 1.5vw;
+
+}
+
+.left__text{
+    position: absolute;
+    top 0;
+    left: 18vw;
+
+}
+
+.right__text{
+    text-align: right;
+
+}
+
+
+/*slidebar */
+.slidebar{
+    margin-top: 5.8vw;
+    float: right;
+    margin-right: 14.3vw;
+    line-height: 1.1;
+
+}
+.about_portfolio{
+    font-family: "Bebas";
+    width: 19vw;
+    margin-bottom:2vw;
+}
+.title_slidebar{
+    text-transform: uppercase;
+    font-size: 0.9vw;
+    margin-bottom:1vw;
+}
+
+
+.line_slidebar{
+    width: 14.5vw;
+    height: 0.35vw;
+    background-image: url("../images/Header Background.png");
+    background-image: no-repeat;
+    background-size: cover;
+    margin-bottom:1.4vw;
+
+}
+.slidebar_text{
+    width: 14.5vw;
+    height: auto;
+    font-family: "HelveticaNeue";
+}
+.categories{
+    width: 14.5vw;
+    margin-bottom:2vw;
+}
+.twitter_widget{
+    width: 14.5vw;
+}
+.tweet{
+    width: 14.5vw;
+}
+.tweet_text{
+  margin-bottom:0.9vw;
+}
+.tweet_time{
+    font-family: "HelveticaNeue";
+    color: rgb(153, 153, 153);
+    margin-bottom:1.4vw;
+}
+
+
+
+
+
+
+
+
+
+
+
